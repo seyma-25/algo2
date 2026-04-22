@@ -11,26 +11,15 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 /* 
-public class ornek54 {
-    //Dosyayı oku ve satırları ters sırayla yeni dosyaya yaz.
-    public static void main(String[] args) throws FileNotFoundException {
-        File f= new File("hersey.txt"); 
-        Scanner oku = new Scanner(f);
-        while(oku.hasNextLine()){
-            String dosya=oku.nextLine();
-
-        }
-        oku.close();
-        PrintWriter pr= new PrintWriter("yeni.txt");
-        //array list öğrenmem gerek
-        /*add(veri): Listenin en sonuna yeni bir eleman ekler.
+add(veri): Listenin en sonuna yeni bir eleman ekler.
 
 size(): Listenin içinde kaç tane eleman olduğunu söyler (Dizilerdeki length gibi).
 
 get(index): İstediğin sıradaki elemanı sana getirir (Dizilerdeki liste[i] gibi).
 
 remove(index): İstediğin sıradaki elemanı siler ve listeyi otomatik olarak daraltır. */
-        import java.io.*;
+
+import java.io.*;
 import java.util.*;
 
 public class TersDosyaYazdirma {
